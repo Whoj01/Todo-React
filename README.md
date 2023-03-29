@@ -1,6 +1,7 @@
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-comandos>Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
@@ -24,6 +25,17 @@ Bibliotecas
 ## 💻 Projeto
  Este projeto foi desenvolvido com a finalidade de treinar meu conhecimento em react, utilizando uma aplicação ToDo,
  contendo um crud simples e drag and drop para poder organizar as ordens das tarefas.
+
+
+## ⌨ Comandos
+
+Para instalar as dependências:
+
+``` npm install  ```
+
+Para rodar o projeto localmente: 
+
+``` npm run dev  ```
 
  ---
  
