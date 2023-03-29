@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(90deg,
+      rgba(65, 184, 131, 1) 0%,
+      rgba(0, 212, 255, 1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 40%;
+  min-width: 600px;
+  min-height: auto;
+  padding: 30px 20px;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formContainer {
+  background: #fff;
+  width: 100%;
+  padding: 30px 20px;
+  display: flex;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+
+form {
+  display: flex;
+  width: 100%;
+}
+
+
+.todoInput {
+  flex: 3;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 2px solid #d1d3d4;
+  margin-right: 10px;
+  padding: 12px;
+  border-radius: 6px;
+  transition: all ease 0.3s;
+}
+
+.todoInput:focus{
+  border-color: #41b883;
+}
+
+.todoInput.error {
+  border-color: #DC0000;
+}
+
+.todoButton {
+  flex: 1;
+  color: white;
+  background: #41b883;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all ease .3s;
+}
+
+
+.todoButton:hover {
+  filter: brightness(0.8);
+}
+
+.todoContainer {
+  width: 100%;
+  background: #fff;
+  min-height: 100px;
+  display: flex;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  border-radius: 8px;
+  padding: 20px 20px;
+  flex-direction: column;
+}
+
+.todoContainer .noTodos  {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #41b883;
+  align-self: center;
+}
+
+.todoRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+.todoRow:nth-child(n+2) {
+  margin-top: 20px;
+}
+
+.todoText {
+  font-size: 1rem;
+  color: black;
+  font-weight: 500; 
+  cursor: pointer;
+  max-width: 400px;
+
+}
+
+.todoText.completed {
+  text-decoration: line-through;
+  color: #d1d3d4;
+}
+
+.icon {
+  color: #fff;
+  background: #DC0000;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  filter: brightness(.8);
+}
