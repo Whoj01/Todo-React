@@ -17,7 +17,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 - JavaScript
 
-Bibliotecas
+## Bibliotecas
 
 - [Google Fonts](https://fonts.google.com/)
 - [Vite](https://vitejs.dev/)
