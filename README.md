@@ -21,7 +21,7 @@ Bibliotecas
 
 - [Google Fonts](https://fonts.google.com/)
 - [Vite](https://vitejs.dev/)
-
+- [React](https://legacy.reactjs.org/docs/getting-started.html)                                                                                                                       -
 ## 💻 Projeto
  Este projeto foi desenvolvido com a finalidade de treinar meu conhecimento em react, utilizando uma aplicação ToDo,
  contendo um crud simples e drag and drop para poder organizar as ordens das tarefas.
